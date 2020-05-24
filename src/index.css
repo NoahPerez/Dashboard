@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  --white: #FFFFFF;
+  --light-orange: #FEF8F3;
+  --light-grey: #F9FAFC;
+  --orange:#E9812C;
+  --light-orange:#FEF8F3;
+  --grey:#C0C0C3;
+  --dark-grey:#7F8FA4;
+  --grey-lighter:#F5F6FA;
+}
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--light-grey);
+  display: flex;
+flex-direction: column;
+height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+  
 }

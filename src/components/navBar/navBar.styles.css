@@ -1,0 +1,50 @@
+.img{
+    width:280px;
+}
+
+.navbar {
+    margin-left: 280px;
+    background-color:white;
+    overflow: auto;
+    border-left: 3px solid var(--grey);
+    margin-top: -83px; 
+  }
+  
+  .navbar a {
+    float: right;
+    padding: 20px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    width:20px;
+  }
+
+ 
+
+  .circle{
+      background: var(--orange);
+      width:15px;
+      height:15px;
+      border-radius: 50%;
+      display: inline-block;
+      position: absolute;
+      font-size: 12px;
+      text-align: center;
+      top:20px;
+      margin-left:975px;
+      color:white;
+      z-index: 3000;;
+  }
+
+   .user-img {
+    background: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMTQwMDQ0NDk1OV5BMl5BanBnXkFtZTcwNDcxOTExNg@@._V1_UY256_CR2,0,172,256_AL_.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    display: inline-block;
+   }

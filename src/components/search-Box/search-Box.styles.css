@@ -1,0 +1,34 @@
+header {
+  display:flex;
+  margin-left: 280px;
+  justify-content: space-between;
+  align-items:center;
+  padding:25px 1%;
+  text-decoration: none;
+}
+
+.search {
+position: relative;
+color: #aaa;
+font-size: 20px;
+}
+
+.search input {
+width: 600px;
+height: 40px;
+font-size: 100;
+margin-right: 80px;
+background:transparent;
+border: 3px solid #aaa;
+border-radius: 5px;
+}
+
+.search input { text-indent: 32px;}
+.search .fa-search { 
+position: absolute;
+top: 10px;
+left: 560px;
+}
+.fa-chevron-up{
+ margin-right: 20px;
+}
